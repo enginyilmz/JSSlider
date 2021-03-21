@@ -43,10 +43,10 @@ init(settings);
 eventListener();
 
 function eventListener() {
-    // next event
+    // next event.
     clickLeft.addEventListener('click', prevItem);
 
-    // prev event
+    // prev event.
     clickRight.addEventListener('click', nextItem);
 
     // arrows mouseenter event
